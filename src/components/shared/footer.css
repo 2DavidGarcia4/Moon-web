@@ -1,0 +1,20 @@
+footer{
+  width: 100%;
+  color: var(--Text-Color);
+  height: 160px;
+  background-color: #0e0e0e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 8px;
+  flex-direction: column;
+}
+
+.footer-copy{
+  color: #8a8a8a;
+}
+
+.footer-createdBy{
+  font-size: 14px;
+  color: #4e4e4e;
+}

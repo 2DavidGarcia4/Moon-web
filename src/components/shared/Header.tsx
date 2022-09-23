@@ -4,8 +4,13 @@ import icon from "../../imgs/icon.png"
 import "./header.css"
 
 export const Header = ()=> {
+  const header = useRef<HTMLElement>(null)
   const menu = useRef<HTMLElement>(null)
   const navigate = useNavigate()
+
+  document.addEventListener("scroll", ()=> {
+    header.current?.classList.toggle("header-scroll", window.scrollY > 80)
+  })
 
   function openMenu(){
     menu.current?.classList.add("open-menu")
@@ -16,7 +21,7 @@ export const Header = ()=> {
   }
 
   return (
-    <header className="header">
+    <header ref={header} className="header">
       <div onClick={()=> navigate("/")} className="header-title">
         <img className="header-title-img" src={icon} alt="" />
         <h1>Moon</h1>

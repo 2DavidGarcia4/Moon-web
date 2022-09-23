@@ -3,6 +3,7 @@
   padding: 40px 20px;
   opacity: 0;
   transition: opacity 1s;
+  height: 100vh;
 }
 
 .home-ready{
@@ -21,3 +22,14 @@
   margin-bottom: 14px;
 }
 
+.home-functions span{
+  font-weight: 600;
+}
+
+
+@media screen and (min-width: 720px) {
+  .home{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}

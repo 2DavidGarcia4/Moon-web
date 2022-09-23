@@ -20,6 +20,23 @@ body {
   background-color: var(--Background-Color);
 }
 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #a08602;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #c0a108;
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: var(--Primary-Color);
+}
+
 h1, h2, h3, h4, p, ul {
   margin-top: 0;
   margin-bottom: 0;

@@ -17,7 +17,7 @@ export const Home = ()=> {
       <div className="home-functions">
         <h2>Funciones</h2>
         <p>
-          Moon bot tiene diferentes funciones contando con las categorias de moderación, diversión, configuraciones, utilidades, entre otras. Además cuenta con más de 60 comandos para pasar un buen rato con los usuarios.
+          Moon bot tiene diferentes funciones contando con las categorias de moderación, diversión, configuraciones, utilidades, entre otras. Además cuenta con más de <span>80</span> comandos para pasar un buen rato con los usuarios.
         </p>
       </div>
     </section>

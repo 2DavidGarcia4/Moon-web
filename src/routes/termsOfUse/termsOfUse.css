@@ -1,5 +1,6 @@
 .termsOfUse{
   color: var(--Text-Color);
+  height: 100vh;
   padding: 40px 20px;
   opacity: 0;
   transition: opacity 1s;
@@ -28,4 +29,12 @@
 
 .termsOfUse-list{
   list-style: inside;
+}
+
+
+@media screen and (min-width: 720px){
+  .termsOfUse{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }
