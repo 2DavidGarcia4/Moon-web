@@ -1,0 +1,31 @@
+.termsOfUse{
+  color: var(--Text-Color);
+  padding: 40px 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tou-ready{
+  opacity: 1;
+}
+
+.termsOfUse-title{
+  color: var(--Primary-Color);
+  margin-bottom: 24px;
+}
+
+.termsOfUse-content{
+  display: flex;
+  row-gap: 10px;
+  font-weight: 500;
+  flex-direction: column;
+}
+
+.termsOfUse-content span{
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.termsOfUse-list{
+  list-style: inside;
+}

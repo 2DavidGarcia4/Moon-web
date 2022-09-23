@@ -1,0 +1,23 @@
+.home{
+  color: #ebebeb;
+  padding: 40px 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.home-ready{
+  opacity: 1;
+}
+
+.home-description{
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.home-functions h2{
+  color: var(--Primary-Color);
+  margin-bottom: 14px;
+}
+
