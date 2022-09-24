@@ -1,23 +1,27 @@
 import "./home.css"
+import db from "../../db/index.json"
 import { useRef } from "react"
 import { useReadySection } from "../../hooks/useReadySection"
+import { useData } from "../../context/DataProvider"
+import { TransformText } from "../../components/TransformText"
 
 export const Home = ()=> {
   const home = useRef(null)
+  const data = useData()
+  if(!data) return (<p>Loading</p>)
+  const {moonData: {language: lang}} = data
 
   useReadySection(home, "home-ready")
   document.title = "Moon"
 
   return (
     <section ref={home} className="home">
-      <p className="home-description">
-        Un bot de discord multipropósitos con diferentes características que pueden llegar a ser útiles para tu servidor
-      </p>
+      <p className="home-description">{db.languages[lang].moon.description}</p>
 
       <div className="home-functions">
-        <h2>Funciones</h2>
+        <h2>{db.languages[lang].home.title}</h2>
         <p>
-          Moon bot tiene diferentes funciones contando con las categorias de moderación, diversión, configuraciones, utilidades, entre otras. Además cuenta con más de <span>80</span> comandos para pasar un buen rato con los usuarios.
+          <TransformText text={db.languages[lang].home.description} />
         </p>
       </div>
     </section>

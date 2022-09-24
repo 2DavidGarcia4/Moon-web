@@ -1,0 +1,97 @@
+{
+  "urls": {
+    "server": "https://discord.gg/Qqdef5psEH",
+    "invitation": "https://discord.com/api/oauth2/authorize?client_id=959204525678424064&permissions=8&scope=bot%20applications.commands"
+  },
+  "moon": {
+    "commands": 83
+  },
+  "languages": {
+    "es": {
+      "moon": {
+        "description": "Un bot de discord multipropósitos con diferentes características que pueden llegar a ser útiles para tu servidor."
+      },
+      "lang": {
+        "es": "Español",
+        "en": "Inglés"
+      },
+      "header": [
+        "Invitar",
+        "Servidor",
+        "Términos de uso",
+        "Políticas de privacidad"
+      ],
+      "home":{
+        "title": "Funciones",
+        "description": "Moon bot tiene diferentes funciones contando con las categorias de moderación, diversión, configuraciones, utilidades, entre otras. Además cuenta con más de |$80=s| comandos para pasar un buen rato con los usuarios."
+      },
+      "privacyPolicies":{
+        "title": "Políticas de privacidad",
+        "caption": "Al usar la aplicación de Moon Bot usted está aceptando nuestras políticas de privacidad que se le muestran a continuación.",
+        "description": [
+          "Primero que nada, ¿Moon Bot es seguro?. Moon Bot se caracteriza por brindar una seguridad a los usuarios que lo suelen utilizar recopilando los datos necesarios y que no llegan a afectar a los usuarios tales como su identificación, fecha de creación de la cuenta y su avatar y los recopilamos para el correcto funcionamiento de la aplicación.",
+          "Si desea eliminar alguno de estos datos no dudes en ingresar al servidor de soporte para solicitar la eliminación de alguno de estos datos puedes dar clic |$aquí{server}=a|.",
+          "Los datos recopilados no se comparten ni mucho menos se venden a ninguna persona, empresa, etc.",
+          "Cabe aclarar que para uno de los sistemas de la aplicación los cuales son el sistema de logs, se recopila los mensajes eliminados y editados de los usuarios, sin embargo estos tienen una fecha de |$15 días=s|, por lo cual cada |$15 días=s|s los mensajes recopilados se |$eliminarán completamente=s| para mantener nuestra política segura."
+        ]
+      },
+      "termsOfUse": {
+        "title": "Términos de uso",
+        "description": [
+          "Se concede el permiso de usar todas las características con las que cuenta la aplicación (Moon Bot) pero al haber un mal funcionamiento de ella, usted puede llegar a ser sancionado, por lo cual, las cosas que no se pueden llegar a hacer con el bot son las siguientes:",
+          "Si realizas algún tipo de estás acciones el castigo puede ser la |$prohibición=s| permanente del usuario a utilizar a Moon Bot."
+        ],
+        "prohibitedActions": [
+          "Uso de malas palabras contra el bot o el servidor de soporte de este",
+          "Aprovechamiento de errores que contienen el bot",
+          "Generar ingresos por utilizar al bot",
+          "Utilizar al bot para usos maliciosos",
+          "Clonar al bot"
+        ]
+      }
+    },
+    "en": {
+      "moon": {
+        "description": "A multipurpose discord bot with different features that can be useful for your server."
+      },
+      "lang": {
+        "es": "Spanish",
+        "en": "English"
+      },
+      "header": [
+        "Invite",
+        "Server",
+        "Terms of use",
+        "Privacy policies"
+      ],
+      "home":{
+        "title": "Functions",
+        "description": "Moon bot has different functions counting on the categories of moderation, fun, configurations, utilities, among others. It also has more than |$80=s| commands to have a good time with users."
+      },
+      "privacyPolicies":{
+        "title": "Privacy policies",
+        "caption": "By using the Moon Bot application you are accepting our privacy policies shown below.",
+        "description": [
+          "First of all, is Moon Bot safe? Moon Bot is characterized by providing security to users who usually use it by collecting the necessary data and that do not affect users such as their identification, account creation date and their avatar and we collect them for the correct functioning of the application.",
+          "If you want to delete any of this data, do not hesitate to enter the support server to request the deletion of any of this data, you can click |$here{server}=a|.",
+          "The data collected is not shared, much less sold to any person, company, etc.",
+          "It should be noted that for one of the application systems, which are the log system, deleted and edited messages from users are collected, however these have a date of |$15 days=s|, for which each |$15 days=s| collected messages will be |$completely deleted=s| to maintain our secure policy."
+        ]
+      },
+      "termsOfUse": {
+        "title": "Terms of use",
+        "description": [
+          "Permission is granted to use all the features that the application (Moon Bot) has, but if it malfunctions, you can be penalized, for which the things that cannot be done with the bot are the following:",
+          "If you perform any of these actions, the punishment can be the permanent prohibition of the user to use Moon Bot."
+        ],
+        "prohibitedActions": [
+          "Use of profanity against the bot or its support server",
+          "Exploiting bugs that contain the bot",
+          "Generate revenue for using the bot",
+          "Use the bot for malicious uses",
+          "Clone the bot"
+        ]
+      }
+    }
+  }
+}

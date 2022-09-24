@@ -1,6 +1,6 @@
 .privacyPolicies{
   color: var(--Text-Color);
-  height: 100vh;
+  min-height: calc(100vh - 60px);
   padding: 40px 20px;
   opacity: 0;
   transition: opacity 1s;
